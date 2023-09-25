@@ -11,7 +11,7 @@ const Navbar = () => {
             <h1>Deep Patel</h1>
         </Link>
 
-        <ul className={showBtn?"nav-menu":"nav-menu-active"}>
+        <ul className={!showBtn?"nav-menu":"nav-menu-active"}>
           <li><Link to='/'>Home</Link></li>
           <li><Link to='/about'>About Us</Link></li>
           <li><Link to='/project'>Project</Link></li>
