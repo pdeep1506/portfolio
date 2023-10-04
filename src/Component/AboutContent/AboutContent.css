@@ -7,6 +7,11 @@
     flex-wrap: wrap;
     height: 100%;
   }
+
+  .btn{
+    margin: 5px 0px;
+    width: 175px;
+  }
   
   .about .left{
     text-align: center;

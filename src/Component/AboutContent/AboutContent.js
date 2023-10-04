@@ -2,8 +2,8 @@ import "./AboutContent.css";
 
 import React from "react";
 import { Link } from "react-router-dom";
-import React1 from "../../assets/react1.jpg";
-import React2 from "../../assets/react2.webp";
+import quote from "../../assets/quote.png";
+import restaurant from "../../assets/restaurant.png";
 
 const AboutContent = () => {
   return (
@@ -20,15 +20,18 @@ const AboutContent = () => {
         <Link to="/contact">
           <button className="btn">Contact</button>
         </Link>
+        <Link to="/skill">
+          <button className="btn">Skills</button>
+        </Link>
       </div>
 
       <div className="right">
         <div className="img-container">
           <div className="img-stack top">
-            <img src={React1} className="img" alt="true" />
+            <img src={restaurant} className="img" alt="true" />
           </div>
           <div className="img-stack bottom">
-            <img src={React2} className="img" alt="true" />
+            <img src={quote} className="img" alt="true" />
           </div>
         </div>
       </div>

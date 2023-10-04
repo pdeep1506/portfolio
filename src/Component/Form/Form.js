@@ -24,7 +24,10 @@ const Form = () => {
 
   return (
     <div className="form">
-      <form>
+        
+
+
+      <form className='form'>
         <label>Your Name</label>
         <input type="text" name='name' required value={formData.name}    onChange={handleChange}></input>
         <label>Email</label>
@@ -35,6 +38,10 @@ const Form = () => {
         <textarea rows="6" name='message' value={formData.message} placeholder="Type your message here"    onChange={handleChange} />
         <button className="btn" onClick={handleSubmit}>Submit</button>
       </form>
+
+    
+        
+     
     </div>
   )
 }
