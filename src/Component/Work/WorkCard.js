@@ -11,7 +11,7 @@ const WorkCard = (props) => {
             <p>{props.text}</p>
             <div className="pro-btns">
             <NavLink to={props.github} target="_blank" className="btn">
-                GitHub 
+                Code 
               </NavLink>
             {props.isLive && 
               <NavLink to={props.isLive} target="_blank" className="btn">
