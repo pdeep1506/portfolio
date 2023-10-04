@@ -4,7 +4,7 @@ import {
     FaHome,
     FaPhone,
     FaMailBulk,
-    FaFacebook,
+    FaGithub,
     FaTwitter,
     FaLinkedin,
   } from "react-icons/fa";
@@ -66,6 +66,12 @@ const Footer = () => {
                   style={{ color: "#fff", marginRight: "1rem" }}
                 />
                </Link>
+                  <Link target='_blank' to='https://github.com/pdeep1506'>
+
+                  <FaGithub  size={30} style={{ color: "#fff", marginRight: "1rem" }} />
+
+                  </Link>
+                  
               </div>
             </div>
           </div>
