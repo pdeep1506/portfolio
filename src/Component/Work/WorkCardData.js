@@ -19,7 +19,7 @@ const ProjectCardData = [
     title: "Restaurant",
     text: "Podcast Thriving Facebook community and top-ranked, Amy inspires a grounded, tangible and self-affirming sense of “Wow! I really can do this” for over 100,000 online entrepreneurs. Best-selling marketing courses",
    
-    isLive:"https://www.youtube.com/watch?v=P8YuWEkTeuE",
+    isLive:"https://restaurant-pdeep1506.netlify.app/",
     github:"https://github.com/pdeep1506/restaurant.git"
   },
   {
