@@ -8,7 +8,9 @@ import {
     FaTwitter,
     FaLinkedin,
   } from "react-icons/fa";
+  import {BiLink} from 'react-icons/bi';
 import './Footer.css'
+
 const Footer = () => {
   const navigation = useNavigate();
  
@@ -69,6 +71,13 @@ const Footer = () => {
                   <Link target='_blank' to='https://github.com/pdeep1506'>
 
                   <FaGithub  size={30} style={{ color: "#fff", marginRight: "1rem" }} />
+
+                  </Link>
+
+                  
+                  <Link target='_blank' to='https://linktr.ee/pdeep1506'>
+
+                  <BiLink  size={30} style={{ color: "#fff", marginRight: "1rem" }} />
 
                   </Link>
                   
