@@ -6,6 +6,7 @@ import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import Navbar from './Component/Navbar/Navbar';
 import Footer from './Component/Footer/Footer';
+import Timeline from './Component/Timeline/Timeline';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
       <Route element={<Project></Project>} path='/project'></Route>
       <Route element={<About></About>} path='/about'></Route>
       <Route element={<Contact></Contact>} path='/contact'></Route>
-
+      <Route element={<Timeline></Timeline>} path='/timeline'></Route>
     </Routes>
       <Footer></Footer>
 
