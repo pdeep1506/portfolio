@@ -23,19 +23,19 @@ const Navbar = () => {
         </Link>
         <ul className={showBtn ? "nav-menu active" : "nav-menu"}>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/" onClick={handleClick}>Home</Link>
           </li>
           <li>
-            <Link to="/project">Project</Link>
+            <Link to="/project" onClick={handleClick}>Project</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/about" onClick={handleClick}>About</Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link to="/contact" onClick={handleClick}>Contact</Link>
           </li>
           <li>
-            <Link to='/timeline'>Timeline</Link>
+            <Link to='/timeline' onClick={handleClick}>Timeline</Link>
           </li>
         </ul>
         <div className="hamburger" onClick={handleClick}>
