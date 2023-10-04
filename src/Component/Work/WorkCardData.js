@@ -27,7 +27,7 @@ const ProjectCardData = [
     title: "Inshore Clone",
     text: "Top-ranked Thriving Facebook community and podcast, Amy inspires a grounded, tangible and self-affirming sense of “Wow! I really can do this” for over 100,000 online entrepreneurs. Best-selling marketing courses",
     view: "https://www.youtube.com/watch?v=P8YuWEkTeuE",
-    isLive:"https://deepinshortclone.netlify.app/",
+    isLive:"https://inshortclone-pdeep1506.netlify.app/",
     github:"https://github.com/pdeep1506/inshort_clone.git"
   },
   // {
@@ -43,7 +43,7 @@ const ProjectCardData = [
     title: "Quote Generator",
     text: "Podcast Thriving Facebook community and top-ranked, Amy inspires a grounded, tangible and self-affirming sense of “Wow! I really can do this” for over 100,000 online entrepreneurs. Best-selling marketing courses",
     view: "https://www.youtube.com/watch?v=P8YuWEkTeuE",
-    isLive:"https://deeprandomquote.netlify.app/",
+    isLive:"https://randomquote-pdeep1506.netlify.app/",
     github:"https://github.com/pdeep1506/Quote-Generator-reactjs.git"
   },
   {
@@ -51,7 +51,7 @@ const ProjectCardData = [
     title: "Crypto-hunter",
     text: "Top-ranked Thriving Facebook community and podcast, Amy inspires a grounded, tangible and self-affirming sense of “Wow! I really can do this” for over 100,000 online entrepreneurs. Best-selling marketing courses",
     view: "https://www.youtube.com/watch?v=P8YuWEkTeuE",
-    isLive:false,
+    isLive:"https://crypto-hunter-pdeep1506.netlify.app/",
     github:"https://github.com/pdeep1506/crypto-hunter.git"
   },
 ];

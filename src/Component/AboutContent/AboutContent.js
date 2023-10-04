@@ -20,9 +20,9 @@ const AboutContent = () => {
         <Link to="/contact">
           <button className="btn">Contact</button>
         </Link>
-        <Link to="/skill">
+        {/* <Link to="/skill">
           <button className="btn">Skills</button>
-        </Link>
+        </Link> */}
       </div>
 
       <div className="right">
