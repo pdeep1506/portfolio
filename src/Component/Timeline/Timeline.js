@@ -19,14 +19,16 @@ const Timeline = () => {
             date: "Jan 2022 – April 2022",
             title:"Software Developer Intern",
             subtitle:"AimDrimz Technology",
-            paragraph:"(3.5/4.0 GPA)",
+            // paragraph:"(3.5/4.0 GPA)",
+            paragraph:"",
             icon: <WorkHistoryIcon/>
         },
         {
             date: "Sep 2022 – Oct 2022",
             title:"Software Developer Intern",
             subtitle:"InfyU labs",
-            paragraph:"(3.5/4.0 GPA)",
+            // paragraph:"(3.5/4.0 GPA)",
+            paragraph:"",
             icon: <WorkHistoryIcon/>
 
         },{
