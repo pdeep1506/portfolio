@@ -1,11 +1,22 @@
 import "./AboutContent.css";
-
+import DeepPatel from '../../assets/DeepPatel.pdf'
 import React from "react";
 import { Link } from "react-router-dom";
 import quote from "../../assets/quote.png";
 import restaurant from "../../assets/restaurant.png";
 
 const AboutContent = () => {
+  const handleDownloadClick = () => {
+    
+    const pdfFilePath = DeepPatel;
+
+  
+    const link = document.createElement('a');
+    link.href = pdfFilePath;
+    link.download = 'DeepPatel_Resume.pdf'; 
+    link.click();
+  };
+
   return (
     <div className="about">
       <div className="left">
@@ -19,6 +30,9 @@ const AboutContent = () => {
          
         <Link to="/contact">
           <button className="btn">Contact</button>
+        </Link>
+        <Link>
+          <button className="btn" onClick={handleDownloadClick}>Download Resume</button>
         </Link>
         {/* <Link to="/skill">
           <button className="btn">Skills</button>
