@@ -23,8 +23,60 @@
   .nav-menu li a {
     font-size: 1.2rem;
     font-weight: 500;
+    transition: border-bottom 0.3s ease;
   }
+  /* .nav-menu li a:hover{
+      border-bottom: 2px solid white;
+
+    } */
+   
+    /* Add these styles to create the bottom border animation */
+/* .nav-menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu li {
+  margin: 0 15px;
+  position: relative;
+} */
+
+.nav-menu a {
+  text-decoration: none;
+  color: white; /* Link color */
+  position: relative;
+  padding-bottom: 5px; /* Space for the border */
+  transition: color 0.3s; /* Transition link color */
+}
+
+.nav-menu a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background-color: #fff; /* White border color */
+  height: 2px; /* Border height */
+  transform: scaleX(0);
+  transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1); /* Transition for the border */
+}
+
+
+.nav-menu a:hover::before {
+  transform: scaleX(1);
+  right: 0;
+}
+
+
   
+  
+  
+
+
+
+
   .hamburger {
     display: none;
   }
