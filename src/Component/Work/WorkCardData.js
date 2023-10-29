@@ -30,14 +30,14 @@ const ProjectCardData = [
     isLive:"https://inshortclone-pdeep1506.netlify.app/",
     github:"https://github.com/pdeep1506/inshort_clone.git"
   },
-  // {
-  //   imgsrc: expense,
-  //   title: "Expense Tracker",
-  //   text: "Thriving Facebook community and top-ranked podcast, Amy inspires a grounded, tangible and self-affirming sense of “Wow! I really can do this” for over 100,000 online entrepreneurs. Best-selling marketing courses",
-  //   view: "https://www.youtube.com/watch?v=P8YuWEkTeuE",
-  //   isLive:false,
-  //   github:"https://github.com/pdeep1506/expenseTracker.git"
-  // },
+  {
+    imgsrc: expense,
+    title: "Expense Tracker",
+    text: "Expense Tracker is a cross-platform app for expense management integrated with Firebase, simplifying financial tracking and accuracy",
+    // view: "https://www.youtube.com/watch?v=P8YuWEkTeuE",
+    isLive:false,
+    github:"https://github.com/pdeep1506/expenseTracker.git"
+  },
   {
     imgsrc: quote,
     title: "Quote Generator",
