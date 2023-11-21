@@ -31,9 +31,11 @@ const AboutContent = () => {
         <Link to="/contact">
           <button className="btn">Contact</button>
         </Link>
-        <Link>
+
+        //! resume
+        {/* <Link>
           <button className="btn" onClick={handleDownloadClick}>Download Resume</button>
-        </Link>
+        </Link> */}
         {/* <Link to="/skill">
           <button className="btn">Skills</button>
         </Link> */}
