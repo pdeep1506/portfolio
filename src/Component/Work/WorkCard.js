@@ -3,6 +3,8 @@ import "./WorkCard.css";
 import React from 'react'
 import { NavLink } from "react-router-dom";
 const WorkCard = (props) => {
+  console.log(" isCode ", props.isCode);
+  
     return (
         <div className="project-card">
           <img src={props.imgsrc} alt="image" />
@@ -10,9 +12,14 @@ const WorkCard = (props) => {
           <div className="pro-details">
             <p>{props.text}</p>
             <div className="pro-btns">
-            <NavLink to={props.github} target="_blank" className="btn">
+            {
+              
+              !props.isLive &&  
+              <NavLink to={props.github} target="_blank" className="btn">
                 Code 
               </NavLink>
+            }
+           
             {props.isLive && 
               <NavLink to={props.isLive} target="_blank" className="btn">
                 Live

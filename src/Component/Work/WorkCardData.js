@@ -1,7 +1,8 @@
 import inshort from '../../assets/inshort.png'
 import quote from '../../assets/quote.png'
 import libraryManagement from '../../assets/library_management.jpg'
-import restaurent from '../../assets/restaurant.png'
+// import restaurent from '../../assets/restaurant.png'
+import portfolio from '../../assets/portfolio.png';
 import cryptohunter from '../../assets/cryptohunter.png'
 import expense from '../../assets/expense.png';
 
@@ -10,31 +11,33 @@ const ProjectCardData = [
     imgsrc: libraryManagement,
     title: "Library management",
     text: "Implemented a comprehensive Library Management system leveraging Nodejs, MongoDB, and Expressjs, enabling user roles (Admin, User, Staff, Librarian), user account creation, borrowing restrictions, penalty systems, and automated fine calculations",
-   
+    
     isLive:false,
     github:"https://github.com/pdeep1506/library_management.git"
   },
   {
-    imgsrc: restaurent,
-    title: "Restaurant",
-    text: "I designed and developed a modern, responsive website for a  restaurant,  as part of my web development portfolio. This project showcases my skills in web design, user experience (UX) design, front-end development.",
-   
-    isLive:"https://restaurant-pdeep1506.netlify.app/",
-    github:"https://github.com/pdeep1506/restaurant.git"
+    imgsrc: portfolio,
+    title: "My-Portfolio",
+    text: "Discover my portfolio website, built with React.js. Experience a showcase of my projects and skills in a user-friendly and engaging format.",
+    
+    isLive: "https://pdeep1506.netlify.app",
+    // github:"https://github.com/pdeep1506/library_management.git"
   },
-  {
-    imgsrc: inshort,
-    title: "Inshore Clone",
-    text: "Inshorts Clone is a web application that allows users to access and read news articles quickly and conveniently. Inspired by the popular Inshorts platform, this project provides a simplified and efficient way for users to stay informed about the latest news across various categories.",
+  // {
+  //   imgsrc: restaurent,
+  //   title: "Restaurant",
+  //   text: "I designed and developed a modern, responsive website for a  restaurant,  as part of my web development portfolio. This project showcases my skills in web design, user experience (UX) design, front-end development.",
    
-    isLive:"https://inshortclone-pdeep1506.netlify.app/",
-    github:"https://github.com/pdeep1506/inshort_clone.git"
-  },
+  //   isLive:"https://restaurant-pdeep1506.netlify.app/",
+  //   github:"https://github.com/pdeep1506/restaurant.git"
+  // },
+ 
   {
     imgsrc: expense,
     title: "Expense Tracker",
     text: "Expense Tracker is a cross-platform app for expense management integrated with Firebase, simplifying financial tracking and accuracy",
     // view: "https://www.youtube.com/watch?v=P8YuWEkTeuE",
+   
     isLive:false,
     github:"https://github.com/pdeep1506/expenseTracker.git"
   },
@@ -53,6 +56,14 @@ const ProjectCardData = [
   
     isLive:"https://crypto-hunter-pdeep1506.netlify.app/",
     github:"https://github.com/pdeep1506/crypto-hunter.git"
+  },
+  {
+    imgsrc: inshort,
+    title: "Inshore Clone",
+    text: "Inshorts Clone is a web application that allows users to access and read news articles quickly and conveniently. Inspired by the popular Inshorts platform, this project provides a simplified and efficient way for users to stay informed about the latest news across various categories.",
+    
+    isLive:"https://inshortclone-pdeep1506.netlify.app/",
+    github:"https://github.com/pdeep1506/inshort_clone.git"
   },
 ];
 
