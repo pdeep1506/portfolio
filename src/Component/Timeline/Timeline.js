@@ -24,7 +24,7 @@ const Timeline = () => {
             icon: <WorkHistoryIcon/>
         },
         {
-            date: "Sep 2022 – Oct 2022",
+            date: "May 2022 – Oct 2022",
             title:"Software Developer Intern",
             subtitle:"InfyU labs",
             // paragraph:"(3.5/4.0 GPA)",
