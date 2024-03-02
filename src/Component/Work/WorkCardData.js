@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import inshort from '../../assets/inshort.png'
 import quote from '../../assets/quote.png'
 import libraryManagement from '../../assets/library_management.jpg'
@@ -5,8 +6,20 @@ import libraryManagement from '../../assets/library_management.jpg'
 import portfolio from '../../assets/portfolio.png';
 import cryptohunter from '../../assets/cryptohunter.png'
 import expense from '../../assets/expense.png';
+=======
+
+import { inshort, quote, libraryManagement, restaurent, cryptohunter, expense, portfolio } from './imageImports.js';
+>>>>>>> 60099d8 (modified some project info)
 
 const ProjectCardData = [
+  {
+    imgsrc: portfolio,
+    title: "Portfolio",
+    text: "you'll find a showcase of my latest work, including projects that demonstrate my skills in front-end and back-end development and more in portfolio.",
+   
+    isLive:"https://pdeep1506.netlify.app",
+    // github:"https://github.com/pdeep1506/library_management.git"
+  },
   {
     imgsrc: libraryManagement,
     title: "Library management",
