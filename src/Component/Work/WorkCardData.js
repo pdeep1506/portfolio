@@ -6,10 +6,10 @@ import { inshort, quote, libraryManagement, restaurent, cryptohunter, expense, p
 const ProjectCardData = [
   {
     imgsrc: portfolio,
-    title: "Portfolio",
-    text: "you'll find a showcase of my latest work, including projects that demonstrate my skills in front-end and back-end development and more in portfolio.",
-   
-    isLive:"https://pdeep1506.netlify.app",
+    title: "My-Portfolio",
+    text: "Discover my portfolio website, built with React.js. Experience a showcase of my projects and skills in a user-friendly and engaging format.",
+    
+    isLive: "https://pdeep1506.netlify.app",
     // github:"https://github.com/pdeep1506/library_management.git"
   },
   {
@@ -20,14 +20,7 @@ const ProjectCardData = [
     isLive:false,
     github:"https://github.com/pdeep1506/library_management.git"
   },
-  {
-    imgsrc: portfolio,
-    title: "My-Portfolio",
-    text: "Discover my portfolio website, built with React.js. Experience a showcase of my projects and skills in a user-friendly and engaging format.",
-    
-    isLive: "https://pdeep1506.netlify.app",
-    // github:"https://github.com/pdeep1506/library_management.git"
-  },
+ 
   // {
   //   imgsrc: restaurent,
   //   title: "Restaurant",
