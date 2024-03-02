@@ -1,15 +1,7 @@
-<<<<<<< HEAD
-import inshort from '../../assets/inshort.png'
-import quote from '../../assets/quote.png'
-import libraryManagement from '../../assets/library_management.jpg'
-// import restaurent from '../../assets/restaurant.png'
-import portfolio from '../../assets/portfolio.png';
-import cryptohunter from '../../assets/cryptohunter.png'
-import expense from '../../assets/expense.png';
-=======
+
 
 import { inshort, quote, libraryManagement, restaurent, cryptohunter, expense, portfolio } from './imageImports.js';
->>>>>>> 60099d8 (modified some project info)
+
 
 const ProjectCardData = [
   {
