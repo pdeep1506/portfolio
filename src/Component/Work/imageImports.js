@@ -5,5 +5,5 @@ import restaurent from '../../assets/restaurant.png';
 import cryptohunter from '../../assets/cryptohunter.png';
 import expense from '../../assets/expense.png';
 import portfolio from '../../assets/portfolio.png';
-
-export { inshort, quote, libraryManagement, restaurent, cryptohunter, expense, portfolio };
+import fruit from '../../assets/fruit.png'
+export { inshort, quote, libraryManagement, restaurent,  fruit,cryptohunter, expense, portfolio };

@@ -1,6 +1,6 @@
 
 
-import { inshort, quote, libraryManagement, restaurent, cryptohunter, expense, portfolio } from './imageImports.js';
+import { inshort, quote, libraryManagement, fruit, restaurent, cryptohunter, expense, portfolio } from './imageImports.js';
 
 
 const ProjectCardData = [
@@ -29,7 +29,14 @@ const ProjectCardData = [
   //   isLive:"https://restaurant-pdeep1506.netlify.app/",
   //   github:"https://github.com/pdeep1506/restaurant.git"
   // },
- 
+  {
+    imgsrc: fruit,
+    title: "Fruit App",
+    text: "Fresh Fruit Facts is one-stop app for exploring the vibrant world of fruits. With a delightful interface and easy navigation, discover everything you need to know about these tasty treats.",
+    
+    isLive:false,
+    github:"https://github.com/pdeep1506/Fruits/tree/main"
+  },
   {
     imgsrc: expense,
     title: "Expense Tracker",
