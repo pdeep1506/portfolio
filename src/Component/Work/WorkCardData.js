@@ -64,7 +64,7 @@ const ProjectCardData = [
   },
   {
     imgsrc: inshort,
-    title: "Inshore Clone",
+    title: "Inshorts Clone",
     text: "Inshorts Clone is a web application that allows users to access and read news articles quickly and conveniently. Inspired by the popular Inshorts platform, this project provides a simplified and efficient way for users to stay informed about the latest news across various categories.",
     
     isLive:"https://inshortclone-pdeep1506.netlify.app/",
