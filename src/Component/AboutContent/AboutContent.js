@@ -20,13 +20,23 @@ const AboutContent = () => {
   return (
     <div className="about">
       <div className="left">
-        {/* <h1>Who Am I?</h1> */}
-        {/* Im a software developer. */}
-        <p>
-         {/* <br></br> */}
+      
+        {/* <p>
+      
           Turning Code into Innovation, One Line at a Time
         
-          </p>
+          </p> */}
+
+
+
+          {/* //! About my self. */}
+        <div id="aboutMe">
+ 
+            <h1>I Develop System that Works</h1>
+
+        </div>
+
+
          
         <Link to="/contact">
           <button className="btn">Contact</button>
@@ -36,12 +46,17 @@ const AboutContent = () => {
         {/* <Link>
           <button className="btn" onClick={handleDownloadClick}>Download Resume</button>
         </Link> */}
+        //! Skills
         {/* <Link to="/skill">
           <button className="btn">Skills</button>
         </Link> */}
       </div>
 
-      <div className="right">
+
+
+
+
+      {/* <div className="right">
         <div className="img-container">
           <div className="img-stack top">
             <img src={restaurant} className="img" alt="true" />
@@ -50,7 +65,7 @@ const AboutContent = () => {
             <img src={quote} className="img" alt="true" />
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
