@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { version } from 'react'
 import './Skill.css'
 import HeroImg2 from '../../Component/HeroImg2/HeroImg2.js'
 import html from '../../assets/skills/html.svg'
-
-
+import renderSkills from './renderSkills.js'
+import {agile, backendSkills, certificates, cloudComputingSkills, concepts, frontendSkills, programmingLanguages, tools, versionControlSkills} from './data.js';
 const Skill = () => {
   return (
     <div>
@@ -15,30 +15,7 @@ const Skill = () => {
           <div className='boxes box-1'>
           <h2>Frontend Development</h2>
           <div className='box1'>
-                <div className='box'>
-                    <img src={html}></img>
-                    HTML
-                </div>
-                <div className='box'>
-                    <img src={html}></img>
-                    CSS3
-                </div>
-                <div className='box'>
-                    <img src={html}></img>
-                    JavaScript
-                </div>
-                <div className='box'>
-                    <img src={html}></img>
-                    React Js
-                </div>
-                <div className='box'>
-                    <img src={html}></img>
-                    Redux
-                </div>
-                <div className='box'>
-                    <img src={html}></img>
-                    Tailwind
-                </div>
+          {renderSkills(frontendSkills)}
           </div>
           </div>
 
@@ -47,22 +24,8 @@ const Skill = () => {
           <div className='boxes box-2'>
           <h2>Backend Development</h2>
           <div className='box1'>
-                <div className='box'>
-                    <img src={html}></img>
-                    Node Js
-                </div>
-                <div className='box'>
-                    <img src={html}></img>
-                    Express Js
-                </div>
-                <div className='box'>
-                    <img src={html}></img>
-                    MongoDB
-                </div>
-                <div className='box'>
-                    <img src={html}></img>
-                    MySql
-                </div>
+                
+          {renderSkills(backendSkills)}
 
                 
                
@@ -74,16 +37,11 @@ const Skill = () => {
           <div className='boxes box-3'>
           <h2>Programming Language</h2>
           <div className='box1'>
-                <div className='box'>
-                    <img src={html}></img>
-                    C
-                </div>
-                <div className='box'>
-                    <img src={html}></img>
-                    Java
-                </div>
-                
-                
+          
+               
+         
+          {renderSkills(programmingLanguages)}
+
           </div>
           </div>
 
@@ -91,14 +49,7 @@ const Skill = () => {
           <div className='boxes box-4'>
           <h2>Version Control & Development</h2>
           <div className='box1'>
-                <div className='box'>
-                <img src={html}></img>
-                Git
-                </div>
-                <div className='box'>
-                    <img src={html}></img>
-                    GitHub
-                </div>
+          {renderSkills(versionControlSkills)}
                
           </div>
           </div>
@@ -108,10 +59,7 @@ const Skill = () => {
           <div className='boxes box-5'>
           <h2>Cloud Computing</h2>
           <div className='box1'>
-                <div className='box'>
-                    <img src={html}></img>
-                    AWS
-                </div>
+          {renderSkills(cloudComputingSkills)}
                 
                 
           </div>
@@ -121,9 +69,7 @@ const Skill = () => {
           <div className='boxes box-6'>
           <h2>Agile Methodology</h2>
           <div className='box1'>
-                <div className='box'>
-                Scrum
-                </div>
+          {renderSkills(agile)}
                
           </div>
           </div>
@@ -132,15 +78,7 @@ const Skill = () => {
           <div className='boxes box-7'>
           <h2>Tools</h2>
           <div className='box1'>
-                <div className='box'>
-                   
-                    VS Code
-
-                </div>
-                <div className='box'>
-               
-                    Postman
-                </div>
+          {renderSkills(tools)}
 
           </div>
           </div>
@@ -149,25 +87,24 @@ const Skill = () => {
           <div className='boxes box-8'>
           <h2>Concepts</h2>
           <div className='box1'>
-                <div className='box'>
-                   
-                Object Oriented Programming
-
-                </div>
-                <div className='box'>
-                Data structure & Algorithm
-                </div>
-                <div className='box'>
-                Data base management system
-                </div>
-                <div className='box'>
-                Software Engineering
-                </div>
+          {renderSkills(concepts)}
                 
           </div>
           </div>
         
+        //! certificates
+        <div className='boxes box-9'>
+          <h2>Certificates</h2>
+          <div className='box1'>
+          {renderSkills(certificates)}
+                
           </div>
+          </div>
+        
+        
+          </div>
+       
+         
        </div>
         
 
