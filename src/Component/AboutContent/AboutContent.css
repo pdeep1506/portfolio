@@ -1,47 +1,59 @@
 .about {
   width: 100%;
-  margin: 3rem 0;
+  /* margin: 1rem 0; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100%;
+  background-color: #1a1919;
+  color: #b1b2b3;
 }
+
+
 
 .btn {
   margin: 5px 0px;
   width: 175px;
+  background-color: #fe6e6e;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #e65e5e;
 }
 
 .about .left {
   text-align: center;
   margin: auto;
   padding: 1rem;
-  max-width: 600px; /* Increased max-width for better readability */
-  background-color: #f9f9f9; /* Light background for contrast */
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  max-width: 600px;
+  background-color: #1a1919;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid white; /* Matching border style */
 }
 
 .about .left h1 {
   margin-bottom: 1rem;
-  font-size: 2rem; /* Increased font size for better visibility */
-  color: #333; /* Darker color for text */
+  font-size: 2rem;
+  color: #fe6e6e;
 }
 
 .about .left h6 {
   font-size: 1.1rem;
   line-height: 1.5;
-  color: #555; /* Slightly lighter color for less emphasis */
-}
-
-.about .left p {
-  margin: 1.2rem 0;
+  color: #b1b2b3;
 }
 
 .about .right {
   max-width: 700px;
-  margin-top: 2rem; /* Added margin for spacing between sections */
+  margin-top: 2rem;
 }
 
 .right .img-container {
@@ -53,9 +65,9 @@
 }
 
 .right .img {
-  max-width: 100%; /* Ensure images fit within their container */
+  max-width: 100%;
   border: 1px solid #333;
-  border-radius: 5px; /* Rounded corners for images */
+  border-radius: 5px;
 }
 
 .right .top {
@@ -70,3 +82,5 @@
   grid-row: 1;
   z-index: 5;
 }
+
+
