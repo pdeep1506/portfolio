@@ -1,53 +1,36 @@
 import "./AboutContent.css";
-import DeepPatel from '../../assets/DeepPatel.pdf'
 import React from "react";
 import { Link } from "react-router-dom";
 import quote from "../../assets/quote.png";
 import restaurant from "../../assets/restaurant.png";
 
 const AboutContent = () => {
-  const handleDownloadClick = () => {
-    
-    const pdfFilePath = DeepPatel;
-
-  
-    const link = document.createElement('a');
-    link.href = pdfFilePath;
-    link.download = 'DeepPatel_Resume.pdf'; 
-    link.click();
-  };
-
   return (
     <div className="about">
       <div className="left">
-        {/* <h1>Who Am I?</h1> */}
-        {/* Im a software developer. */}
-        <p>
-         {/* <br></br> */}
-          Turning Code into Innovation, One Line at a Time
-        
-          </p>
-         
+        <div id="aboutMe">
+          <h1>I Develop Systems that Work</h1>
+          <h6>
+            Hi, I'm Deep Patel, a passionate Software Developer with a knack for turning ideas into efficient and scalable applications. 
+            I have experience in both frontend and backend development, with a special love for React and Node.js. 
+            Whether it's building dynamic web apps or crafting seamless user experiences, I'm all in! 
+            When I'm not coding, you'll find me exploring new tech trends or brainstorming my next big project. 
+            Let's connect and create something awesome together!
+          </h6>
+        </div>
+
         <Link to="/contact">
           <button className="btn">Contact</button>
         </Link>
-
-        //! resume
-        {/* <Link>
-          <button className="btn" onClick={handleDownloadClick}>Download Resume</button>
-        </Link> */}
-        {/* <Link to="/skill">
-          <button className="btn">Skills</button>
-        </Link> */}
       </div>
 
       <div className="right">
         <div className="img-container">
           <div className="img-stack top">
-            <img src={restaurant} className="img" alt="true" />
+            <img src={restaurant} className="img" alt="Restaurant Project" />
           </div>
           <div className="img-stack bottom">
-            <img src={quote} className="img" alt="true" />
+            <img src={quote} className="img" alt="Quote Project" />
           </div>
         </div>
       </div>
