@@ -53,7 +53,7 @@ const Timeline = () => {
     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
     date={each.date}
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fe6e6e' }}
     icon={each.icon}
   >
     <h3 className="vertical-timeline-element-title">{each.title}</h3>
