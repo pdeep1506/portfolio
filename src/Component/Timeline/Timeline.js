@@ -15,14 +15,14 @@ const Timeline = () => {
             icon: <SchoolIcon/>
 
         },
-        {
-            date: "Jan 2022 – April 2022",
-            title:"Software Developer Intern",
-            subtitle:"AimDrimz Technology",
-            // paragraph:"(3.5/4.0 GPA)",
-            paragraph:"",
-            icon: <WorkHistoryIcon/>
-        },
+        // {
+        //     date: "Jan 2022 – April 2022",
+        //     title:"Software Developer Intern",
+        //     subtitle:"AimDrimz Technology",
+        //     // paragraph:"(3.5/4.0 GPA)",
+        //     paragraph:"",
+        //     icon: <WorkHistoryIcon/>
+        // },
         {
             date: "May 2022 – Dec 2022",
             title:"Software Developer Intern",
@@ -31,7 +31,8 @@ const Timeline = () => {
             paragraph:"",
             icon: <WorkHistoryIcon/>
 
-        },{
+        },
+        {
             date: "Jan 2023 – April 2024",
             title:"Post Graduate- Mobile Application Development (co-op)",
             subtitle:"Fanshawe College - London, ON",
