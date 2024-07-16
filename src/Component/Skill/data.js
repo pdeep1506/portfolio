@@ -12,7 +12,9 @@ import c from '../../assets/skills/c.svg.png'
 import java from '../../assets/skills/java.svg'
 import git from '../../assets/skills/git.svg'
 import github from '../../assets/skills/github.svg'
-
+import aws from '../../assets/skills/aws.svg'
+import vscode from '../../assets/skills/vscode.svg'
+import postman from '../../assets/skills/postman.svg'
 const frontendSkills = [
     { src: html, name: 'HTML' },
     { src: css, name: 'CSS3' },
@@ -44,13 +46,13 @@ const frontendSkills = [
   ];
   
   const cloudComputingSkills = [
-    { name: 'AWS' },
+    { src:aws, name: 'AWS' },
     // Add other cloud computing skills here with their respective images
   ];
   
   const tools = [
-    { name: 'VS Code' },
-    { name: 'Postman' },
+     { src:vscode, name: 'VS Code' },
+    { src:postman, name: 'Postman' },
     // Add other tools here
   ];
 
