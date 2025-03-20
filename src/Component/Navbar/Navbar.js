@@ -25,9 +25,9 @@ const Navbar = () => {
           <li>
             <Link to="/" onClick={handleClick}>Home</Link>
           </li>
-          {/* <li>
+          <li>
             <Link to="/project" onClick={handleClick}>Project</Link>
-          </li> */}
+          </li>
           <li>
             <Link to="/about" onClick={handleClick}>About</Link>
           </li>

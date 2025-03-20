@@ -4,23 +4,31 @@
 
 
 const ProjectCardData = [
-  // {
-  //   imgsrc: portfolio,
-  //   title: "My-Portfolio",
-  //   text: "Discover my portfolio website, built with React.js. Experience a showcase of my projects and skills in a user-friendly and engaging format.",
-    
-  //   isLive: "https://pdeep1506.netlify.app",
-  //   // github:"https://github.com/pdeep1506/library_management.git"
-  // },
-    // {
-  //   imgsrc: portfolio,
-  //   title: "My-Portfolio",
-  //   text: "Discover my portfolio website, built with React.js. Experience a showcase of my projects and skills in a user-friendly and engaging format.",
-    
-  //   isLive: "https://pdeep1506.netlify.app",
-  //   // github:"https://github.com/pdeep1506/library_management.git"
-  // },
-  
+
+  {
+    imgsrc: null, // Leave it null if no image
+    title: "Dockerized CI/CD Pipeline with Azure DevOps",
+    text: "Built a CI/CD pipeline using Azure DevOps to automate the deployment of Dockerized applications to Azure Kubernetes Service (AKS).",
+    isLive: "https://example.com",
+    github: "https://github.com/pdeep1506/docker-cicd.git"
+  },
+  {
+    imgsrc: null, // Leave it null if no image
+    title: "Static Website using Azure CLI",
+    text: "Deployed a static website using Azure CLI and ARM Templates, automating the creation of necessary Azure Resource Group, Storage Account, and Static Website configuration.",
+    isLive: "https://example.com",
+    github: "https://github.com/pdeep1506/azure-static-website.git"
+  },
+  {
+    imgsrc: null, // Leave it null if no image
+    title: "Web Application with Azure App Service and Azure Storage",
+    text: "Developed a web application hosted on Azure App Service utilizing Azure Storage services for data management and file storage.",
+    isLive: "https://example.com",
+    github: "https://github.com/pdeep1506/azure-web-app.git"
+  }
 ];
+
+
+
 
 export default ProjectCardData;
