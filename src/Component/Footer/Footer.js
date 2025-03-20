@@ -21,7 +21,7 @@ const Footer = () => {
               <div className="location">
                 <FaHome size={20} style={{ color: "#fff", marginRight: "2rem" }} />
                 <div>
-                  <p>London, Canada.</p>
+                  <p>Toronto, Canada.</p>
               
                 </div>
               </div>
@@ -53,33 +53,33 @@ const Footer = () => {
               </p> */}
               <div className="social">
                
-               <Link  target="_blank" to='https://twitter.com/pdeep1506'>
+               {/* <Link  target="_blank" to='https://twitter.com/pdeep1506'>
 
                 <FaTwitter
                   size={30}
                   style={{ color: "#fff", marginRight: "1rem" }}
                 />
-               </Link>
+               </Link> */}
 
-               <Link target='_blank' to='https://linkedin.com/in/pdeep1506'>
+               <Link target='_blank' to='https://linkedin.com/in/pateldeepcloud'>
 
                 <FaLinkedin
                   size={30}
                   style={{ color: "#fff", marginRight: "1rem" }}
                 />
                </Link>
-                  <Link target='_blank' to='https://github.com/pdeep1506'>
+                  {/* <Link target='_blank' to='https://github.com/pdeep1506'>
 
                   <FaGithub  size={30} style={{ color: "#fff", marginRight: "1rem" }} />
 
-                  </Link>
+                  </Link> */}
 
                   
-                  <Link target='_blank' to='https://linktr.ee/pdeep1506'>
+                  {/* <Link target='_blank' to='https://linktr.ee/pdeep1506'> */}
 
-                  <BiLink  size={30} style={{ color: "#fff", marginRight: "1rem" }} />
+                  {/* <BiLink  size={30} style={{ color: "#fff", marginRight: "1rem" }} /> */}
 
-                  </Link>
+                  {/* </Link> */}
                   
               </div>
             </div>
