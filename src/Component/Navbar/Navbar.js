@@ -32,15 +32,17 @@ const Navbar = () => {
             <Link to="/about" onClick={handleClick}>About</Link>
           </li>
           <li>
+            <Link to='/Skill' onClick={handleClick}>Skills</Link>
+          </li>
+
+          <li>
             <Link to="/contact" onClick={handleClick}>Contact</Link>
           </li>
           {/* <li>
             <Link to='/timeline' onClick={handleClick}>Timeline</Link>
           </li> */}
 
-          {/* <li>
-            <Link to='/Skill' onClick={handleClick}>Skills</Link>
-          </li> */}
+          
         </ul>
         <div className="hamburger" onClick={handleClick}>
           {showBtn ? (

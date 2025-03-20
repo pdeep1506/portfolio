@@ -1,12 +1,12 @@
-// import React from 'react'
+import React from 'react'
 
-// const renderSkills = (skills) => {
-//     return skills.map((skill, index) => (
-//         <div className='box' key={index}>
-//           {skill.src && <img src={skill.src} alt={skill.name} />}
-//           {skill.name}
-//         </div>
-//       ))
-// }
+const renderSkills = (skills) => {
+    return skills.map((skill, index) => (
+        <div className='box' key={index}>
+          
+          {skill.name}
+        </div>
+      ))
+}
 
-// export default renderSkills
+export default renderSkills
